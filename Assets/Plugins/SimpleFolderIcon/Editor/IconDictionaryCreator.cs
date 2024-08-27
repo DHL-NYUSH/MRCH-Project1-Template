@@ -27,7 +27,7 @@ namespace SimpleFolderIcon.Editor
             foreach (string str in assets)
             {
 
-                if (ReplaceSeparatorChar(Path.GetDirectoryName(str)) == "Assets/Plugins" + AssetsPath)
+                if (ReplaceSeparatorChar(Path.GetDirectoryName(str)) == "Assets" + AssetsPath)
                 {
                     return true;
                 }
